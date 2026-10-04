@@ -1,17 +1,13 @@
-
-
-import './App.css'
-import ScrollingAnimation from './components/scrolling'
-import RotatingAnimation from './components/rotating'
+import RotateSection from './components/RotateSection'
+import ParallaxSection from './components/ParallaxSection'
+import Carousel from './components/Carousel'
 
 function App() {
   return (
-    <main className='w-full h-screen bg-black text-white'>
-      <div className='text-white font-bolf text-8xl text-center flex items-center h-full w-full justify-center'>
-        Hello
-      </div>
-      <RotatingAnimation />
-      <ScrollingAnimation />
+    <main className="w-full bg-black text-white">
+      <RotateSection />
+      <ParallaxSection />
+      <Carousel />
     </main>
   )
 }
